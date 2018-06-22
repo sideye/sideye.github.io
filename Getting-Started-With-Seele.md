@@ -8,20 +8,20 @@ When you run this for the first time,  a node executable object should appear.
 
 ### Running a Node
 #### On Windows
-**Running a Singular Node**
+**Running a Singular Node**:
 Execute the following command: `node start -c .\config\node1.json`
 By default this will start the miner, not metrics. You can add flags at the end of the line `-m "stop"` to not start the miner, or `-t true` to [start metrics](#metrics).
 
-**Running Multiple Nodes**
+**Running Multiple Nodes**:
 Execute the following command: `node start -c .\config\node1.json`
 Then, in another terminal window, run: `node start -c .\config\node2.json`
 
 #### On Linux & Mac
-**Running a Singular Node**
+**Running a Singular Node**:
 Execute the following command: `./node start -c .\config\node1.json`
 By default this will start the miner, not metrics. You can add flags at the end of the line `-m "stop"` to not start the miner, or `-t true` to [start metrics](#metrics).
 
-**Running Multiple Nodes**
+**Running Multiple Nodes**:
 Execute the following command: `./node start -c .\config\node1.json`
 Then, in another terminal window, run: `./node start -c .\config\node2.json`
 
@@ -257,6 +257,7 @@ If you are running this for the first time, a client executable object will appe
 ### Running a Client Node
 **On Windows**
 In the command window, run: `client`
+
 **On Mac & Linux**
 In the command window, run: `./client`
 
