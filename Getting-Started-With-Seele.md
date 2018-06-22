@@ -255,10 +255,10 @@ First install [influxdb](https://github.com/influxdata/influxdb), and add the fo
 If you are running this for the first time, a client executable object will appear.
 
 ### Running a Client Node
-**On Windows**
+**On Windows**:
 In the command window, run: `client`
 
-**On Mac & Linux**
+**On Mac & Linux**:
 In the command window, run: `./client`
 
 ### Help
