@@ -260,7 +260,7 @@ In the command window, run: `client`
 **On Mac & Linux**
 In the command window, run: `./client`
 
-### Help:
+### Help
 To get help, run `client -h` on Windows or `./client -h` on Mac or Linux. The help window displays the following:
 <a name="help">
 
