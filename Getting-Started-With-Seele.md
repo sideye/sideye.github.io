@@ -4,6 +4,7 @@
 2. In a terminal window, navigate to the `src\github.com\seeleteam` in the [GOPATH](https://github.com/golang/go/wiki/SettingGOPATH) directory. You will have to create these folders and path if it does not exist.
 3. Clone the go-seele repository by running: `git clone https://github.com/seeleteam/go-seele`
 3. Navigate to `\go-seele\cmd\node`, then run: `go build`
+
 When you run this for the first time,  a node executable object should appear. 
 
 ### Running a Node
@@ -207,7 +208,7 @@ To create a new public key based on an existing private key, run in the command 
 ### Start metrics
 First install [influxdb](https://github.com/influxdata/influxdb), and add the following code to your custom module [configurations](#node1):
 
-<a>
+<a name="metrics">
 
 	"metrics": {
 	    "address": "127.0.0.1:8086",
