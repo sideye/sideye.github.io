@@ -1,9 +1,9 @@
 body.body {
-  font-family: "Comic Sans MS";
+  font-family: "Helvetica";
 }
 
 div.center {
-  font-family: "Comic Sans MS";
+  font-family: "Helvetica";
   text-align: center;
 }
 
@@ -24,11 +24,11 @@ div.img {
 }
 
 div.experience {
-  font-family: "Comic Sans MS";
+  font-family: "Helvetica";
 }
 
 div.greeting {
-  font-family: "Comic Sans MS";
+  font-family: "Helvetica";
   font-size: 36px;
 }
 
@@ -36,7 +36,7 @@ div.links {
   font-size: 22px;
   text-align: center;
   background-color: white;
-  font-family: "Comic Sans MS";
+  font-family: "Helvetica";
 }
 
 
